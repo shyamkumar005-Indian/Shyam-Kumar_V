@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Shyam Kumar V | GBS & Strategy Leader</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <style>
+      /* 3. CSS VARIABLES - The JavaScript at the bottom will change these colors daily */
+      :root {
+        --primary: #002D62;
+        --accent: #0072CE;
+        --surface: #f8fafc;
+        --text-main: #1a1a1a;
+      }
+     
+      /* 4. RESET & BASE STYLES */
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: var(--text-main);
+        background: #fff;
+        line-height: 1.6;
+        transition: all 0.5s ease;
+        /* Smooth color transitions */
+      }
+        
+      /* 5. REUSABLE COMPONENTS (Avatars & Buttons) */
+      .avatar-circle {
+        border-radius: 50%;
+        border: 3px solid var(--accent);
+        object-fit: cover;
+        background: white;
+      }
+        
+      .btn-primary {
+        padding: 15px 35px;
+        background: var(--accent);
+        color: white;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: 600;
+        display: inline-block;
+        transition: 0.3s;
+      }
+      .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+      
+      /* 6. HERO SECTION (Real Photo Focus) */
+      .hero {
+        display: flex;
+        align-items: center;
+        min-height: 90vh;
+        background: linear-gradient(135deg, #020b16 0%, var(--primary) 100%);
+        color: white;
+        padding: 80px 8%;
+      }
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 60px;
+        max-width: 1200px;
+        margin: 0 auto;
+        align-items: center;
+      }
+      .hero-text h1 { font-size: 3.5rem; font-weight: 800; line-height: 1.1; margin-bottom: 20px; }
+      .hero-text p { font-size: 1.2rem; opacity: 0.8; margin-bottom: 30px; border-left: 4px solid var(--accent); padding-left: 20px; }
+      .hero-photo { width: 100%; border-radius: 24px; box-shadow: 30px 30px 80px rgba(0,0,0,0.4); }
+      
+      /* 7. DUAL-ROLE CARDS */
+      .section-padding { padding: 100px 8%; }
+      .dual-impact { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 40px; }
+      .card { padding: 40px; border-radius: 20px; background: var(--surface); border: 1px solid #e2e8f0; transition: 0.3s; }
+      .card:hover { border-color: var(--accent); transform: translateY(-5px); }
+      .card i { font-size: 2rem; color: var(--accent); margin-bottom: 20px; }
+   
+      /* 8. INDUSTRY RADAR (Avatar as Curator) */
+      .curator-header { display: flex; align-items: center; gap: 20px; margin-bottom: 40px; }
+      .rss-placeholder { border: 2px dashed #cbd5e1; padding: 60px; text-align: center; border-radius: 20px; color: #94a3b8; }
+   
+      /* 9. DAILY QUOTES (Avatar as Voice) */ 
+      .quote-box {
+        background: #020b16;
+        color: white;
+        padding: 80px 40px;
+        border-radius: 40px;
+        text-align: center;
+        position: relative;
+        margin-top: 60px;
+      }
+      #quote-text { font-size: 1.8rem; font-weight: 300; font-style: italic; max-width: 800px; margin: 0 auto; }
+    
+      /* 10. FOOTER */
+      footer { padding: 60px 8%; background: #020b16; color: white; text-align: center; border-top: 1px solid rgba(255,255,255,0.1); } 
+      
+      /* RESPONSIVE (Mobile view) */
+      @media (max-width: 900px) {
+        .hero-grid, .dual-impact { grid-template-columns: 1fr; text-align: center; }
+        .hero-text h1 { font-size: 2.5rem; }
+        .curator-header { flex-direction: column; }
+      }
+    
+    </style>
+  </head>
+  <body>
+    
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1>Shyam Kumar V</h1>
+          <p>Manager – GBS | Strategic Business Leader at Aptiv. <br>Bridging Global Product Strategy with Boardroom-level Operational Excellence.</p>
+          <a href="https://www.linkedin.com/in/shyam-kumar-b665b235" class="btn-primary" target="_blank">Connect on LinkedIn</a>
+        </div>
+        <div>
+          <img src="headshot.jpg" alt="Shyam Kumar V" class="hero-photo">
+        </div>
+      </div>
+    </section>
+    
+    <section class="section-padding">
+      <h2 style="font-size: 2.5rem; margin-bottom: 50px;">The Dual-Impact Mandate</h2>
+      <div class="dual-impact">
+        <div class="card">
+          <i class="fas fa-microchip"></i>
+          <h3>Operational Foundation</h3>
+          <p>Leading GBS operations in Chennai as **Manager - GBS**, focusing on precision execution, team leadership, and global continuity for Aptiv.</p>
+        </div>
+        <div class="card"> 
+          <i class="fas fa-chess"></i>
+          <h3>Strategic Recognition</h3>
+          <p>Leveraging functional expertise as **Director - GPLM**, aligning business services directly with the Global Product Line lifecycle.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section-padding" style="background: white;">
+      <div class="curator-header">
+        <img src="avatar.png" alt="Digital Shyam" class="avatar-circle" style="width: 80px; height: 80px;">
+        <div>
+          <h3>Industry Radar</h3>
+          <p style="color: #64748b;">Curated Automotive, AI, and GBS insights by Shyam's Digital Twin.</p>
+        </div>
+      </div>
+      <div class="rss-placeholder">
+        <p><i class="fas fa-rss-square"></i> Live News Feed (ET Auto & MIT AI) Loading...</p>
+      </div>
+    </section>
+    
+    <section class="section-padding">
+      <div class="quote-box">
+        <img src="avatar.png" alt="Digital Shyam" class="avatar-circle" style="width: 60px; height: 60px; margin-bottom: 20px;">
+        <p id="quote-text">"Loading today's leadership reflection..."</p>
+        <p style="margin-top: 30px; opacity: 0.5; text-transform: uppercase; letter-spacing: 3px; font-size: 0.7rem;">Daily Professional Insight</p>
+      </div>
+    </section>
+    
+    <footer>
+      <p>Shyam Kumar Vellat | Chennai, India</p>
+      <p style="opacity: 0.5; font-size: 0.8rem; margin-top: 20px;">© 2026. Architected for Resilience and Continuity.</p>
+    </footer>
+    
+    <script>
+      /* --- DYNAMIC THEME ENGINE ---            Selects one of 7 corporate palettes based on the day of the week (0-6) */
+      const dayThemes = [
+        { p: '#002D62', a: '#0072CE' }, // Sun: Aptiv Navy
+        { p: '#1e272e', a: '#4bc0c0' }, // Mon: Tech Charcoal
+        { p: '#2c3e50', a: '#e67e22' }, // Tue: Professional Slate
+        { p: '#16213e', a: '#0f3460' }, // Wed: Deep Ocean
+        { p: '#1a1a2e', a: '#4834D4' }, // Thu: Modern Indigo
+        { p: '#0f0c29', a: '#24243e' }, // Fri: Midnight Blue
+        { p: '#2d3436', a: '#636e72' } // Sat: Executive Gray
+        ];
+      const d = new Date();
+      const theme = dayThemes[d.getDay()];
+      document.documentElement.style.setProperty('--primary', theme.p);
+      document.documentElement.style.setProperty('--accent', theme.a);
+      
+      /* --- 75 ROTATING QUOTES ENGINE ---
+      Picks one quote based on the day of the year (0-365) */
+      const quotes = [
+        // GBS & Leadership (50)
+        "Strategy is the blueprint, but GBS is the engine that turns vision into reality.",
+        "In global operations, consistency is the ultimate form of sophistication.",
+        "The goal of GBS is to move from being a cost center to becoming a value-creator.",
+        "Excellence is not a singular act, but a habit formed through operational discipline.",
+        "Leadership is the art of giving people a platform to spread their own wings.",
+        "True continuity is maintaining momentum even when the wind changes direction.",
+        "Operational resilience is built in the quiet moments of preparation.",
+        "A global team is not defined by distance, but by the shared clarity of its mission.",
+        "Data tells you what is happening; leadership tells you why it matters.",
+        "Efficiency is doing things right; effectiveness is doing the right things.",
+        "The most successful GBS organizations speak the language of the business.",
+        "Innovation in GBS isn't about tools; it's about new ways of thinking.",
+        "Strategic partnership is earned through delivery.",
+        "A leader’s job is to look around corners, not just over shoulders.",
+        "Scaling is doing things better as you grow.",
+        "Integrity is the bedrock of global trust.",
+        "The best process is the one that empowers the person using it.",
+        "GBS is the heartbeat of a global enterprise.",
+        "Leadership is making others better in your presence.",
+        "In a world of noise, clarity of execution is a competitive advantage.",
+        "Standardization is the foundation upon which innovation is built.",
+        "The speed of the leader determines the pace of the pack.",
+        "A hub like Chennai drives the world forward.",
+        "Metrics should inspire action, not just provide information.",
+        "Don't just manage the workflow; inspire the people.",
+        "Agility is pivoting without losing your posture.",
+        "Strategic recognition is the byproduct of value delivery.",
+        "A global mindset sees through a thousand lenses.",
+        "Complexity is the enemy of execution.",
+        "Leadership is the bridge between 'what is' and 'what can be'.",
+        "Success is a team sport played at a global scale.",
+        "A culture of continuous improvement is your most powerful tool.",
+        "Operational stability is the canvas for strategy.",
+        "Great leaders create more leaders.",
+        "Transformation is a journey of a thousand small optimizations.",
+        "Empathy is a core leadership competency.",
+        "Predictability is the greatest gift GBS can give.",
+        "Influence is gained by solving problems.",
+        "The future belongs to those who master data and connection.",
+        "Resilience is staying focused on the horizon during a storm.",
+        "Functional impact is limited only by collaboration.",
+        "Excellence is found in the overlooked details.",
+        "A leader’s legacy is the systems they leave behind.",
+        "Trust is the currency of the digital economy.",
+        "Simplicity is the ultimate sophistication.",
+        "Collaboration turns individual effort into global impact.",
+        "Leadership is the courage to fix what isn't working.",
+        "In GBS, our product is reliability.",
+        "Never confuse activity with achievement.",
+        "Continuous learning is the only insurance for the future.",
+            
+        // Fulfilling Life (25)
+        "Success without fulfillment is the ultimate failure.",
+        "Life is not a race to be won, but a story to be well-told.",
+        "Create something that lives beyond you.",
+        "Happiness is the intersection of passion and purpose.",
+        "Your character is your destiny.",
+        "A fulfilling life is built one choice at a time.",
+        "Don't count the days; make the days count.",
+        "The quality of your life is the quality of your relationships.",
+        "Gratitude turns 'enough' into 'more than enough'.",
+        "Success is getting what you want; happiness is wanting what you get.",
+        "Be a voice, not an echo.",
+        "The most important work is within your own home.",
+        "Live as if you die tomorrow; learn as if you live forever.",
+        "Purpose is the anchor in changing tides.",
+        "Impact begins with a heart of service.",
+        "Growth happens at the edge of your comfort zone.",
+        "Have something to do, someone to love, and something to hope for.",
+        "It’s not the years in your life, but the life in your years.",
+        "Authenticity is letting go of who you are 'supposed' to be.",
+        "Peace is the presence of clarity.",
+        "Invest in your mind, body, and soul.",
+        "The best time to plant a tree was 20 years ago. The second best time is now.",
+        "Meaningful life is about direction, not speed.",
+        "Kindness is the highest form of intelligence.",
+        "Your legacy is every life you touch."
+      ];
+        
+      // Logic to pick a daily quote based on day of the year
+      const start = new Date(d.getFullYear(), 0, 0);
+      const diff = d - start;
+      const oneDay = 1000 * 60 * 60 * 24;
+      const dayOfYear = Math.floor(diff / oneDay);
+      document.getElementById('quote-text').innerText = quotes[dayOfYear % quotes.length];
+    </script>
+  </body>
+</html>
+
